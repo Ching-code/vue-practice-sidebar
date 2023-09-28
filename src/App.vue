@@ -1,9 +1,7 @@
 <template>
     <div>
         <div style="width: 250px">
-            <div style="width: 100%; height: 30px">
-                <Search />
-            </div>
+            <ChannelSearch />
             <TitleMenu :isActive="activeId === 100" @active="activeId = 100">
                 <template v-slot:title>
                     <!-- 給 title 具名插槽傳遞內容 -->
@@ -23,17 +21,22 @@
 <script>
 import TitleMenu from "./components/TitleMenu";
 import ChannelList from "./components/ChannelList";
-import Search from "./components/Search";
+import ChannelSearch from "./components/ChannelSearch";
 export default {
     components: {
         TitleMenu,
         ChannelList,
-        Search,
+        ChannelSearch,
     },
     data() {
         return {
             activeId: 100,
         };
+    },
+    methods: {
+        handleSearch(e) {
+            console.log("搜尋", e);
+        },
     },
 };
 </script>
