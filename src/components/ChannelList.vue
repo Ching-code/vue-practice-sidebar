@@ -23,6 +23,11 @@
         </div>
         <div class="collapse" @click="isExpand = !isExpand">
             <span>{{ isExpand ? "收起" : "展開" }}</span>
+            <font-awesome-icon
+                :icon="
+                    isExpand ? ['fas', 'chevron-up'] : ['fas', 'chevron-down']
+                "
+            />
         </div>
     </div>
 </template>
@@ -110,5 +115,8 @@ export default {
     font-size: 14px;
     cursor: pointer;
     border-bottom: #e7e7e7 1px solid;
+}
+.collapse span {
+    margin-right: 10px;
 }
 </style>

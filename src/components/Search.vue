@@ -3,6 +3,7 @@
         <div class="search-area">
             <input type="text" />
         </div>
+        <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
     </form>
 </template>
 <script>
