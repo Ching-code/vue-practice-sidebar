@@ -2,7 +2,7 @@
 
 [側邊欄元件練習](https://ching-code.github.io/vue-practice-sidebar/)
 
-![vue-sidebar](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAJROJtyhne9t-5mpM_y68qHu88MwVdjcghnHnevSzmXrXxy2oQUE0kQdUMMDaKc0gTPi412c8VRWzsk3zv6anX-QRhdw=w1865-h970)
+![vue-sidebar](https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaD_Prt6HbOIq5tRREWvh5knd-fWS7NSx6CfbTKlLQJjibV__TnQc_uNk5aAkslrJRaELQkIaGB_U165VxCoi3J9u1WlDg=w1865-h970)
 
 ## 使用技術
 
